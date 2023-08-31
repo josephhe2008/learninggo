@@ -13,5 +13,9 @@ func main() {
 
 	ints := []int{7, 2, 4}
 	slices.Sort(ints)
-	fmt.Println("sorted:", ints)
+	fmt.Println("Ints:", ints)
+
+	// isSorted return true false
+	s := slices.IsSorted(ints)
+	fmt.Println("Sorted: ", s)
 }
