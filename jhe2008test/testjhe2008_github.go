@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-
 	"github.com/josephhe2008/jhe2008"
 )
 
